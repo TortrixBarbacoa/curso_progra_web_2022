@@ -1,0 +1,96 @@
+/* REFERENCIA POR PALABRA CLAVE */
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* REFERENCIA POR PALABRA ID */
+
+.labelRed{
+    font-size: 14px;
+    color: red;
+}
+
+.labelBlue{
+    font-size: 14px;
+    color: blue;
+}
+
+.labelGreen{
+    font-size: 14px;
+    color: green;
+}
+
+.labelYellow{
+    font-size: 14px;
+    color: yellow;
+}
+
+
+/* REFERENCIA POR PALABRA CLASS */
+
+p[name="tercerop"] {
+    font-size: 13px;
+}
+
+p[name="cuartop"] {
+    font-size: 10px;
+}
+
+p[name="quintop"] {
+    font-size: 15px;
+}
+
+p[name] {
+    color: deepskyblue;
+}
+
+
+p[name^="parr"] {
+    color: indigo;
+}
+
+
+p[name$="afo"] {
+    color: grey;
+}
+
+
+p[name*="aguas"] {
+    color: orange;
+}
+
+.mitexto:nth-child(1){
+    background: lightblue;
+}
+
+.mitexto:nth-child(2){
+    background: lightcoral;
+}
+
+.mitexto:nth-child(3){
+    background: lightcyan;
+}
+
+.mitexto:nth-child(4){
+    background: lightgoldenrodyellow;
+}
+
+.mitexto:nth-child(5){
+    background: lightseagreen;
+}
+
+
+
+p:last-child{
+    font-weight: bold;
+    color: white;
+}
+
+div > p.mitexto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
