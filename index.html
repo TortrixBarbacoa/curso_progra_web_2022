@@ -4,65 +4,85 @@
         <meta charset="iso-8859-1">
         <meta name="Ejemplo" content="Documento de prueba">
         <title>Primer pagina web</title>
+        <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
 
-        <header>
-            <h1>
-                Header de la pagina web, prueba
-            </h1>
+        <div id="divGeneral">
+        <header id="cabecera">
+            <h1 id="tituloprincipal">Header de la pagina web, prueba</h1>
+            <h2>Subtitulo</h2>
         </header>
 
-        <nav>
+        <nav id="menu">
             <ul>
                 <li>Principal</li>
-                <li>Fotos</li>
+                <li>Fotos<a></a></li>
                 <li>Videos</li> 
                 <li>Documentacion</li>
-                <li>Contacto e Información de la Empresa</li>
+                <li>Contacto e Informacion de la Empresa</li>
             </ul>
         </nav>
 
-        <section>
+        <section id="seccionPrincipal">
 
-            <article>
+            <article class="articulo">
                 <header>
-                    <h1>TITUTLO DEL ARTICULO 1</h1>
+                    <hgroup>
+                        <h1 class="tituloHeaderArt">TITULO DEL ARTICULO 1</h1>
+                        <h2>Subtitulo del Articulo 1</h2>
+                    </hgroup>
                 </header>
-                ESTE ES EL CONTENIDO DEL ARTICULO 1 
+
+                <footer>
+                    Comentarios (0)
+                </footer>
               </article>
 
-              <figure>
-                <img src="https://plantillasdememes.com/img/plantillas/la-roca-seria01628290997.png">
-
-                <figcaption>
-                    Ayer pasamos contexto
-                </figcaption>
-              </figure>
-
-              
-              <article>
+              <article class="articulo">
+                <header>
+                    <hgroup>
+                        <h1 class="tituloHeaderArt">TITULO DEL ARTICULO 2</h1>
+                        <h2>Subtitulo del Articulo 2</h2>
+                    </hgroup>
+                </header>
                 ESTE ES EL CONTENIDO DEL ARTICULO 2
+
+                <footer>
+                    Comentarios (0)
+                </footer>
               </article>
-              <article>
+
+              <article class="articulo">
+                <header>
+                    <hgroup>
+                        <h1 class="tituloHeaderArt">TITULO DEL ARTICULO 3</h1>
+                        <h2>Subtitulo del Articulo 3</h2>
+                    </hgroup>
+                </header>
                 ESTE ES EL CONTENIDO DEL ARTICULO 3
+
+                <footer>
+                    Comentarios (0)
+                </footer>
               </article>
             
         </section>
 
-        <aside>
-            <blockquote>A este usuario le gustan las viejas</blockquote>
-            <blockquote>A este usuario le gustan las viejas</blockquote>
-            <blockquote>A este usuario le gustan las viejas</blockquote>
-            <blockquote>A este usuario le gustan las viejas</blockquote>
+        <aside id="sidebar">
+            <blockquote>Mensaje 1 del sidebar</blockquote>
+            <blockquote>Mensaje 2 del sidebar, UVG Sur</blockquote>
+            <blockquote>Mensaje 3 del sidebar, Elian Alvarado</blockquote>
+            <blockquote>Mensaje 4 del sidebar, Programacion Web</blockquote>
         </aside>
 
-        <footer>
+        <footer id="footer">
             Derechos reservados.
         </footer>
 
+    </div>
     </body>
     
 </html>
