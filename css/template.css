@@ -1,0 +1,106 @@
+/* SELECTOR UNIVERSAL */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* JERARQUÍA DE CABECERAS */
+
+h1 {
+    font: bold;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font: bold;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    font: bold;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    font: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6 {
+    font: bold;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, section, footer aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+.fig1{
+    vertical-align: center;
+}
+
+/* DISEÑO DEL TEMPLATE */
+
+
+#divGeneral{
+    width: 980px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera{
+    background: lightcoral;
+    padding: 5px 15 px;
+}
+
+#menu{
+    background: lightseagreen;
+    padding: 5px 15px;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 7px 15px;
+    font: bold 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#seccionPrincipal{
+    float: left;
+    width: 650px;
+    margin: 20px;
+}
+
+#sidebar{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: lightsalmon;
+    border-radius: 12px;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid lightcyan;
+}
+

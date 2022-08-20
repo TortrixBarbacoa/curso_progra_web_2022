@@ -1,0 +1,11 @@
+.articulo {
+    background: lightskyblue;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+.articulo footer {
+    text-align: right;
+    color: red
+}
