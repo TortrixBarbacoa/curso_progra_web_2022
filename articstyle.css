@@ -1,3 +1,5 @@
+/* PRINCIPIO ESTILO DE ARTÍCULOS */
+
 .artic {
     background: white(73, 202, 204, 0.625);
     padding: 20px;
@@ -7,7 +9,7 @@
     border: solid;
     border-width: thick;
     border-color: lightblue;
-}
+} /* ESTILO ARTÍCULO */
 
 .artic footer {
     font-family: "raleway", sans-serif;
@@ -15,14 +17,38 @@
     font-weight: bold;
     font-size: 17px;
     text-align: right;
-}
+} /* ESTILO FOOTER DE ARTÍCULO */
 
 .artic:hover {
     cursor: pointer;
     color: black;
     transition: 0.2s all ease;
     background-color: lightblue;
-}
+} /* PONER CURSOR SOBRE EL ARTÍCULO */
+
+/* FIN ESTILO DE ARTÍCULOS */
+
+
+/* PRINCIPIO ESTILO DE ARTÍCULOS DEL SIDEBAR */
+
+.sidebarArtic {
+    text-align: left;
+    padding: 5px;
+    background: white;
+    margin-top: 10px;
+    border-radius: 10px;
+} /* CONTAINER ARTÍCULO SIDEBAR */
+
+
+.sidebarArtic:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.2s all ease;
+    background-color: black;
+} /* PONER CURSOR SOBRE EL ARTÍCULO SIDEBAR */
+
+/* FIN ESTILO DE ARTÍCULOS DEL SIDEBAR */
+
 
 
 

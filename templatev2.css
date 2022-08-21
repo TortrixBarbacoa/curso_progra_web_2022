@@ -1,13 +1,13 @@
-/* ESTILO DE BODY */
+/* PRINCIPIO ESTILO DE BODY */
 
 body {
     background-color: white;
 }
 
-/* ESTILO DE BODY */
+/* FIN ESTILO DE BODY */
 
 
-/* ESTILO DE TEXTO POR JERARQUÍA */
+/* PRINCIPIO ESTILO DE TEXTO POR JERARQUÍA */
 
 h1 {
     font-family: "montserrat", sans-serif;
@@ -36,30 +36,48 @@ h4 {
     margin-top: 20px;
 }
 
-/* ESTILO DE TEXTO POR JERARQUÍA */
+h5 {
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 12px;
+}
+
+h6 {
+    font-family: "lato", sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    margin-left: 12px;
+    margin-top: 1px;
+}
+
+/* FIN ESTILO DE TEXTO POR JERARQUÍA */
 
 
-/* ESTILO DE HEADER */
+/* PRINCIPIO ESTILO DE HEADER */
+
 #cabeceraPrin {
     margin-top: 0px;
     text-align: center;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(175,174,238,1) 30%, rgba(233,148,198,1) 100%);
     width: 100%;
-    height: 100%;
-    padding: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-/* ESTILO DE HEADER */
+
+/* FIN ESTILO DE HEADER */
 
 
-/* ESTILO DE BARRA DE NAVEGACIÓN */
+/* PRINCIPIO ESTILO DE BARRA DE NAVEGACIÓN */
 
 #barNav {
     margin: 0px;
     background-color: black;
     width: 100%;
     text-align: left;
-    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: sticky;
     top: 0px;
 } /* ESTILO DEL CONTAINER DE LA BARRA */
@@ -82,7 +100,10 @@ nav li:hover {
     cursor: pointer;
 } /* EFECTO DE CURSOR AL PASAR SOBRE ALGÚN ELEMENTO */
 
-/* ESTILO DE BARRA DE NAVEGACIÓN */
+/* FIN ESTILO DE BARRA DE NAVEGACIÓN */
+
+
+/* PRINCIPIO ESTILO SECCIÓN PRINCIPAL */
 
 #mainSect{
     margin-left: 12px;
@@ -90,23 +111,87 @@ nav li:hover {
     float: left;
     width: 75%;
     height: auto;
-}
+} /* ESTILO SECCIÓN PRINCIPAL */
+
+
+.headSect {
+    text-align: center;
+    border: solid;
+    border-color: lightpink;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    padding: 7px;
+} /* ESTILO HEADER DE SECCIÓN PRINCIPAL */
+
+/* FIN ESTILO DE SECCIÓN PRINCIPAL */
+
+
+/* PRINCIPIO ESTILO DE SIDEBAR */
 
 #sidebar{
+    object-position: center;
     margin-top: 25px;
     border-radius: 10px;
     float: left;
-    padding: 15px;
+    padding: 20px;
     width: 20%;
-    height: 100%;
+    height: 1045px;
     background: lightsalmon;
 }
+
+/* PRINCIPIO ESTILO DE SIDEBAR */
+
+
+/* PRINCIPIO ESTILO DE FOOTER */
 
 #footer{
     clear: both;
     text-align: center;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(114,9,121,1) 35%, rgba(0,33,39,1) 100%);
     padding: 20px;
-    border-top: 2px solid lightcyan;
+} /* ESTILO DE CONTAINER DE FOOTER */
+
+
+#footer li {
+    color: white;
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px 10px; 
+} /* ESTILO DE CONTENIDO DE FOOTER */
+
+/* FIN ESTILO DE FOOTER */
+
+
+/* PRINCIPIO ESTILO DE HIPERVÍNCULOS */
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
 
+a:hover {
+    color: lightsalmon;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* FIN ESTILO DE HIPERVÍNCULOS */
