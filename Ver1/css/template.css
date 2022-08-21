@@ -1,11 +1,10 @@
-/* SELECTOR UNIVERSAL */
+
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
-/* JERARQUÍA DE CABECERAS */
 
 h1 {
     font: bold;
@@ -65,12 +64,13 @@ body{
 }
 
 #cabecera{
-    background: lightcoral;
-    padding: 5px 15 px;
+    background: black;
+    padding: 5px 15px;
 }
 
+
 #menu{
-    background: lightseagreen;
+    background: red;
     padding: 5px 15px;
 }
 
@@ -103,4 +103,5 @@ body{
     padding: 20px;
     border-top: 2px solid lightcyan;
 }
+
 

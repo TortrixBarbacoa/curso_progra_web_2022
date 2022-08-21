@@ -1,0 +1,112 @@
+/* ESTILO DE BODY */
+
+body {
+    background-color: white;
+}
+
+/* ESTILO DE BODY */
+
+
+/* ESTILO DE TEXTO POR JERARQUÍA */
+
+h1 {
+    font-family: "montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "raleway", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: "lato", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 2px;
+}
+
+h4 {
+    font-family: "lato", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* ESTILO DE TEXTO POR JERARQUÍA */
+
+
+/* ESTILO DE HEADER */
+#cabeceraPrin {
+    margin-top: 0px;
+    text-align: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(175,174,238,1) 30%, rgba(233,148,198,1) 100%);
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+}
+/* ESTILO DE HEADER */
+
+
+/* ESTILO DE BARRA DE NAVEGACIÓN */
+
+#barNav {
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+} /* ESTILO DEL CONTAINER DE LA BARRA */
+
+
+#barNav li {
+    color: white;
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+    font-family: "raleway", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px 10px; 
+}/* ESTILO DE TEXTO EN LA BARRA */
+
+
+
+nav li:hover {
+    cursor: pointer;
+} /* EFECTO DE CURSOR AL PASAR SOBRE ALGÚN ELEMENTO */
+
+/* ESTILO DE BARRA DE NAVEGACIÓN */
+
+#mainSect{
+    margin-left: 12px;
+    margin-right: 10px;
+    float: left;
+    width: 75%;
+    height: auto;
+}
+
+#sidebar{
+    margin-top: 25px;
+    border-radius: 10px;
+    float: left;
+    padding: 15px;
+    width: 20%;
+    height: 100%;
+    background: lightsalmon;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid lightcyan;
+}
+
+
