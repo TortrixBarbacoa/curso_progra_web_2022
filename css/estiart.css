@@ -1,19 +1,21 @@
 /* PRINCIPIO ESTILO DE ARTÍCULOS */
 
+
 .artic {
+    text-align: left;
     background: white(73, 202, 204, 0.625);
     padding: 20px;
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
     border: solid;
-    border-width: thick;
-    border-color: lightblue;
+    border-width: thin;
+    border-color: gray;
 } /* ESTILO ARTÍCULO */
 
 .artic footer {
     font-family: "raleway", sans-serif;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 17px;
     text-align: right;
@@ -21,10 +23,40 @@
 
 .artic:hover {
     cursor: pointer;
-    color: black;
+    color: white;
     transition: 0.2s all ease;
-    background-color: lightblue;
+    background-color: black;
 } /* PONER CURSOR SOBRE EL ARTÍCULO */
+
+.articSub {
+    color: white;
+    float: center;
+    text-align: left;
+    background: white(73, 202, 204, 0.625);
+    padding: 20px;
+    width: 128%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: solid;
+    background-color: black;
+    border-width: thin;
+    border-color: gray;
+}
+
+.articSub footer {
+    font-family: "raleway", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+}
+
+.articSub:hover {
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
 
 /* FIN ESTILO DE ARTÍCULOS */
 
@@ -34,20 +66,15 @@
 .sidebarArtic {
     text-align: left;
     padding: 5px;
-    background: white;
+    background: black;
     margin-top: 10px;
     border-radius: 10px;
 } /* CONTAINER ARTÍCULO SIDEBAR */
 
 
-.sidebarArtic:hover {
-    cursor: pointer;
-    color: white;
-    transition: 0.2s all ease;
-    background-color: black;
-} /* PONER CURSOR SOBRE EL ARTÍCULO SIDEBAR */
 
 /* FIN ESTILO DE ARTÍCULOS DEL SIDEBAR */
+
 
 
 
