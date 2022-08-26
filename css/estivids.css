@@ -1,6 +1,3 @@
-/* PRINCIPIO ESTILO DE ARTÍCULOS */
-
-
 .artic {
     text-align: left;
     background: white(73, 202, 204, 0.625);
@@ -72,13 +69,12 @@
 } /* CONTAINER ARTÍCULO SIDEBAR */
 
 
-/* FIN ESTILO DE ARTÍCULOS DEL SIDEBAR */
-
 .column {
+    margin-left: 50px;
     margin-top: 10px;
     float: left;
-    width: 32%;
-    padding: 7px;
+    width: 40%;
+    padding: 20px;
   }
 
 .row::after {
@@ -87,35 +83,3 @@
     clear: both;
     display: table;
 }
-
-
-.articCont {
-    color: black;
-    float: center;
-    text-align: left;
-    background: white(73, 202, 204, 0.625);
-    padding: 20px;
-    width: 128%;
-    height: 165px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    border: solid;
-    border-color: black;
-    border-width: thin;
-    border-color: gray;
-}
-
-.grupCont {
-    margin: 60px;
-    margin-left: 300px;
-}
-
-
-
-
-
-
-
-
-
