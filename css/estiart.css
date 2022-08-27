@@ -71,6 +71,15 @@
     border-radius: 10px;
 } /* CONTAINER ARTÍCULO SIDEBAR */
 
+.sidebarArtic:hover {
+    text-align: left;
+    padding: 5px;
+    background: darkred;
+    transition: 0.5s;
+    margin-top: 10px;
+    border-radius: 10px;
+} 
+
 
 /* FIN ESTILO DE ARTÍCULOS DEL SIDEBAR */
 
